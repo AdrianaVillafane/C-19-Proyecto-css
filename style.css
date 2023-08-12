@@ -5,12 +5,15 @@
         box-sizing: border-box;
     }
     @font-face {
-        font-family: ;
+       font-family: 'Courier New', Courier, monospace;
         src:url("Thewitcher-jnOj.ttf");
     }
     main{
         width: 100wh;
         height: 100vh;
         background-color: blueviolet;
+    }
+    h1{
+        margin: 10px auto;
     }
    }
