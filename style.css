@@ -11,9 +11,34 @@
     main{
         width: 100wh;
         height: 100vh;
-        background-color: blueviolet;
+       
     }
     h1{
         margin: 10px auto;
     }
    }
+   #global {
+	color: antiquewhite;
+	border: 1px solid #ddd;
+	background: #331D2C;
+	overflow-y: scroll;
+   
+}
+#mensajes {
+	height: auto;
+    width: 350px;
+    height: 200px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+.texto {
+	padding:4px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 5em;
+}
