@@ -8,6 +8,12 @@
        font-family: 'Courier New', Courier, monospace;
         src:url("Thewitcher-jnOj.ttf");
     }
+    body{
+        background-image: url("abstract-gradient-neon-lights.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+    }
     main{
         width: 100wh;
         height: 100vh;
@@ -19,17 +25,17 @@
    }
    #global {
 	color: antiquewhite;
-	border: 1px solid #ddd;
-	background: #331D2C;
-	overflow-y: scroll;
+	
+	
+    margin: auto;
+    align-items: center;
    
 }
 #mensajes {
 	height: auto;
     width: 350px;
     height: 200px;
-    overflow-y: scroll;
-    scroll-behavior: smooth;
+   
 }
 .texto {
 	padding:4px;
