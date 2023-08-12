@@ -5,14 +5,16 @@
         box-sizing: border-box;
     }
     @font-face {
-       font-family: 'Courier New', Courier, monospace;
-        src:url("Thewitcher-jnOj.ttf");
+        src:url("./font/Thewitcher-jnOj.ttf");
+       font-family: 'Gerald';
+      
     }
     body{
-        background-image: url("abstract-gradient-neon-lights.jpg");
+        background-image: url("img/abstract-gradient-neon-lights.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         display: flex;
+        font-family: 'Gerald';
     }
     main{
         width: 100wh;
@@ -20,7 +22,7 @@
        
     }
     h1{
-        margin: 10px auto;
+        margin: 50px auto;
     }
    }
    #global {
@@ -32,9 +34,11 @@
    
 }
 #mensajes {
-	height: auto;
-    width: 350px;
-    height: 200px;
+	display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+  
    
 }
 .texto {
@@ -47,4 +51,7 @@
     justify-content: center;
     height: 100%;
     font-size: 5em;
+}
+.imagen{
+    width: 90%;
 }
