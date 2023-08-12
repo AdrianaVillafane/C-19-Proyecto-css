@@ -27,6 +27,9 @@
    }
    #global {
 	color: antiquewhite;
+    background-image: url("img/abstract-gradient-neon-lights.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 	
 	
     margin: auto;
@@ -65,4 +68,7 @@ p{
     border: 2px solid gray;
     border-radius: 20px;
     object-fit: cover;
+}
+figure{
+  text-align: center;
 }
