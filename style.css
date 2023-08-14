@@ -22,7 +22,7 @@
        
     }
     h1{
-        margin: 50px auto;
+       
     }
    }
    #global {
@@ -57,19 +57,28 @@
 }
 h1{
     font-size: 5em;
+    margin: 50px auto;
 }
 p{
     font-size: 1em;
     line-height: 1.5;
 }
-.imagen{
+figure {
     width: 100%;
     margin: 10px auto;
     border: 2px solid gray;
-    border-radius: 20px;
+  border-radius: 20px;
     object-fit: cover;
+    color: antiquewhite;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
 }
 figure{
   text-align: center;
 }
 
+img{
+    border-radius: 20%;
+}
